@@ -15,7 +15,7 @@ body {
   margin: 0 auto;
   max-width: 900px;
   text-align: center;
-  background-color: rgba(24, 72, 117, 0.459);
+  background-color: whitesmoke;
   padding: 20px;
   border-radius: 8px;
 }
@@ -25,6 +25,8 @@ body {
   
 }
 
+
+
 .todo-input {
   display: flex;
   align-items: center;
@@ -32,16 +34,19 @@ body {
   flex-direction: column;
   height: 1;
   width: 100%;
+  font-size: 18px ;
 }
 
 .add-button {
   padding: 5px 10px;
+  width:70px;
 }
 
 .todo-table {
   width: 100%;
   border-collapse: collapse;
   margin-top: 20px;
+  font-size: 20px ;
 }
 
 .todo-table th, .todo-table td {
@@ -55,11 +60,8 @@ body {
 }
 
 .todo-table tr {
-  background-color: #8ba7b3;
-}
+  background-color: #1a262b65;
 
-.todo-table tr:hover {
-  background-color: #ddd;
 }
 
 .todo-table td {
@@ -74,16 +76,26 @@ body {
 }
 
 .edit-button{
-  width: 50px;
+  margin-left: 10px;
+  padding: 5px 10px;
+  width: 70px;
 }
 
+
+.onlogout{
+  width:70px;
+  align-items: center;
+  justify-content: center;
+
+  
+}
 .completed td {
   text-decoration: line-through;
 }
 
 h1 {
   font-size: 45px;
-  color:white;
+  color:black;
   margin: 30px 0;
 }
 
@@ -128,6 +140,13 @@ h1 {
   position: relative;
 }
 
+input[type="checkbox"]
+{
+  width: 20px;
+  height: 20px;
+}
+
+
 .input-box input[type="text"],
 .input-box input[type="password"] {
   border-radius: 10px;
@@ -168,7 +187,7 @@ input {
 button {
   margin-top: 30px;
   width: 100%;
-  background-color: #65919c;
+  background-color: rgb(43, 125, 128);
   color: #fff;
   padding: 15px 0;
   font-size: 15px;
