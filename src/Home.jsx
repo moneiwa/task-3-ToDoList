@@ -91,7 +91,7 @@ data.text.toLowerCase().includes(searchInquire.toLowerCase())
 return (
 <div>
 <h2></h2>
-<button onClick={onLogout}>Logout</button>
+<button className='onlogout' onClick={onLogout}> Logout</button>
 <div className="todo-container">
 <h1>ToDo List</h1>
 <div className="input-container">
